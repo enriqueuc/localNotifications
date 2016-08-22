@@ -20,6 +20,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jv3-tk-Te4">
                                 <rect key="frame" x="217" y="48" width="167" height="30"/>
                                 <state key="normal" title="Send Local Notificaction"/>
+                                <connections>
+                                    <action selector="enviarNotificacion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3d-eb-ieh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
