@@ -24,10 +24,12 @@ class ViewController: UIViewController {
         let localNotification = UILocalNotification()
         //envía la notificacion dentro de 5 segundos
         localNotification.fireDate = NSDate(timeIntervalSinceNow: 5)
-        localNotification.alertBody = "Cuerpo de la notificacion\nCon salto de línea"
+        localNotification.alertTitle = "Título de la notificación"
+        localNotification.alertBody = "Cuerpo de la notificación\nCon salto de línea"
         localNotification.timeZone = NSTimeZone.defaultTimeZone()
         //incrementa el valor de la app que muestra
         localNotification.applicationIconBadgeNumber = UIApplication.sharedApplication().applicationIconBadgeNumber + 1
+//        localNotification.repeatInterval
         
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
         
