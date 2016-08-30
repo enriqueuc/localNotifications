@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<chatRoom_usr1usr12>
+	<usr1>
+		<usr1:fecha>12:35:19 30-08-2016</usr1:fecha>
+		<usr1:texto>Esto es un texto que sera un string</usr1:texto>
+	</usr1>
+	<usr12>
+		<usr12:fecha>12:35:21 30-08-2016</usr12:fecha>
+		<usr12:texto>Esto es un texto que sera un string</usr12:texto>
+	</usr12>
+	<usr12>
+		<usr12:fecha>12:36:00 30-08-2016</usr12:fecha>
+		<usr12:texto>Esto es un texto que sera un string 2</usr12:texto>
+	</usr12>
+</chatRoom_usr1usr12>
